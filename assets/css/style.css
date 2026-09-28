@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.main-header {
+    background-color: #018F26;
+}
+
+.header-logo img {
+    width: 60px;
+    margin: 10px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.header-sosmed img{
+    width: 35px;
+}
+
+.header-content h1 {
+    margin-left: 20px;
+    margin-right: auto;
+    color: #ffffff;
+    font-size: 24px;
+}
+
+.header-sub {
+    background-color: #00631A;
+}
+
+.header-nav {
+    margin: 0 -10px;
+}
+
+.header-nav a {
+    padding: 15px 20px;
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-tombol:hover {
+    transform: scale(1.02);
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.tagline {
+    text-align: center;
+    background-color: #018F26;
+    padding: 5px 20px;
+    color: #ffffff;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3) ;
+}
+
+.tagline h3 {
+    font-family: 'Arial Black', Arial, sans-serif;  
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: 0;
+    letter-spacing: 10px;
+}
+
+#berita {
+    padding: 40px 0;
+}
+
+.container h3 {
+    font-size: 21px;
+}
+
+.berita-data {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.berita-gambar img {
+    width: 300px;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3) ;
+}
+
+.berita-gambar:hover img {
+    transform: scale(1.02);
+}
+
+.berita-deskripsi h4 {
+    font-size: 18px;
+   margin-top: 0;
+}
+
+.berita-tombol {
+    text-decoration: none;
+    background-color: #018F26;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 14px;
+    display: inline-block;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    font-family: 'Poppins', sans-serif;
+}
+
+.berita-tombol:hover {
+    background-color: #00631A;
+    transform: scale(1.02);
+}
+
+.main-footer {
+    background-color: #212529;
+    margin: 0;
+}
+
+.footer-logo img {
+    width: 110px;
+    height: auto;
+    object-fit: cover;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.footer-deskripsi h4 {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.footer-deskripsi p {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.footer-deskripsi {
+    color: #ffffff;
+   
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.credit {
+    background-color: #000000;
+    text-align: center;
+    padding: 5px 20px;
+    margin-top: 0;
+    color: #ffffff;
+}
+
+.isi-kredit {
+    margin-top: 10px;
+}
